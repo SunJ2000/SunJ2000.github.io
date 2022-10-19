@@ -268,7 +268,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2022/10/19/hello-world/" itemprop="url">Hello World</a></h1>
+                <a class="post-title-link" href="/2022/10/19/hello-world/" itemprop="url">Markdown教程</a></h1>
         
 
         <div class="post-meta">
@@ -320,19 +320,47 @@
       
         
           
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+            <p>本文章仅为笔者自己练习md语法所写，原教程为：<a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/">Markdown官方教程</a></p>
+<h3 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h3><p>在单词和短语的前面添加 “#”号.  #的数量代表了标题的级别。</p>
+<h3 id="段落语法"><a href="#段落语法" class="headerlink" title="段落语法"></a>段落语法</h3><p>要创建段落，使用一行空白行将一行或者多行文本进行分隔。</p>
+<p>不要使用空格或者制表符缩进段落。</p>
+<h3 id="换行语法"><a href="#换行语法" class="headerlink" title="换行语法"></a>换行语法</h3><p>在一行的末尾添加两个或多个空格，然后按回车键，即可创建一个换行。<br>或者使用HTML标签 &lt;br&gt; 表示换行。</p>
+<h3 id="强调语法"><a href="#强调语法" class="headerlink" title="强调语法"></a>强调语法</h3><p>通过将文本设置为粗体或斜体来强调其重要性.<br>使用 <strong>两个</strong> <strong>*</strong> 号表示<strong>加粗</strong>；使用<strong>一个</strong> <strong>*</strong> 表示 <em>斜体</em>；使用<strong>三个</strong> <strong>*</strong> 表示同时 <em><strong>加粗和斜体</strong></em>；</p>
+<h3 id="引用语法"><a href="#引用语法" class="headerlink" title="引用语法"></a>引用语法</h3><p>要创建块引用，在段落前面添加一个  &gt; 符号。<br>渲染效果如下:</p>
+<blockquote>
+<p>不忘初心，方得始终。</p>
+</blockquote>
+<p>块引用可以包含多个段落。为段落之间的空白行添加一个 &gt; 符号。</p>
+<h3 id="列表语法"><a href="#列表语法" class="headerlink" title="列表语法"></a>列表语法</h3><p>要创建有序列表，在每个列表项前添加数字并紧跟着一个英文句点。</p>
+<blockquote>
+<ol>
+<li>第一项<ol>
+<li>第1.1项</li>
+</ol>
+</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+</blockquote>
+<p>要创建无序列表，在每个列表项前添加破折号。</p>
+<blockquote>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<p>要在保留列表连续性的同时在列表中添加另一种元素，请将该元素缩进四个空格或一个制表符。</p>
+<h3 id="代码语法"><a href="#代码语法" class="headerlink" title="代码语法"></a>代码语法</h3><p>要将单词或短语表示为代码，将其包裹在反引号（<code>`</code>）中。</p>
+<h3 id="分隔线语法"><a href="#分隔线语法" class="headerlink" title="分隔线语法"></a>分隔线语法</h3><p>要创建分割线，在单独一行上使用三个或多个星号，并且不包含其它内容。</p>
+<hr>
+<h3 id="链接语法"><a href="#链接语法" class="headerlink" title="链接语法"></a>链接语法</h3><p>链接文本放在中括号内，链接地址放在后面的括号中，链接地址可选。<br>例如：<code>\[Markdown语法](https://markdown.com.cn)</code><br>渲染效果：<a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown语法</a></p>
+<p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。</p>
+<p>例如：<code>\[Markdown语法](https://markdown.com.cn &quot;markdown官方教程&quot;)</code><br>渲染效果：<a target="_blank" rel="noopener" href="https://markdown.com.cn/" title="markdown官方教程">Markdown语法</a></p>
+<p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。<br>例如：&lt;<a target="_blank" rel="noopener" href="https://markdown.com.cn&gt;/">https://markdown.com.cn&gt;</a></p>
+<h3 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h3><p>要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br>例如：<code>![图片](../../public/images/avatar.gif)</code></p>
+<p><img src="/../../public/images/avatar.gif" alt="图片"></p>
+<p>给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。<br>例如：<code>[![图片](../../public/images/avatar.gif)](https://markdown.com.cn) </code></p>
 
           
         
