@@ -449,8 +449,7 @@
   
     <div class="comments" id="comments">
       
-        <div onclick="showGitment()" id="gitment-display-button">显示 Gitment 评论</div>
-        <div id="gitment-container" style="display:none"></div>
+        <div id="gitment-container"></div>
       
     </div>
 
@@ -780,7 +779,7 @@
             oauth: {
             
             
-                client_secret: '821b1082400505e21d388542e425a91f5d90fbf6',
+                client_secret: 'f4cbdb5e16d4a27101db3eaf4379f49a5c21165b',
             
                 client_id: 'c3dedd1d7ccaa088e3d3'
             }});
@@ -788,11 +787,7 @@
       }
 
       
-      function showGitment(){
-        document.getElementById("gitment-display-button").style.display = "none";
-        document.getElementById("gitment-container").style.display = "block";
-        renderGitment();
-      }
+      renderGitment();
       
       </script>
     
